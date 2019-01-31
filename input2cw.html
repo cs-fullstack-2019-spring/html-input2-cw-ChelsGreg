@@ -1,0 +1,82 @@
+
+<!--Use placeholders where shown-->
+<!--Make First and Last name required, as well as checkbox for agreeing to the terms-->
+<!--Use the proper 'type' field for email, password, and birthday-->
+<!--Style as close to the example as you can but feel free to add additional styling (as it is quite the boring form...)-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="input2cw.css">
+</head>
+<body class="container">
+
+<header>
+    <h1>Register</h1>
+</header>
+
+<form>
+
+ <fieldset>
+
+    <section>
+    <label>First Name:
+        <input type="text" name="username" placeholder="Jane" required>
+    </label>
+    <label>
+        Last Name:
+        <input type="text" name="username" placeholder="Smith" required>
+    </label>
+    </section>
+
+    <section>
+    <input type="radio" name="gender" value="Female" checked> Female
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Other"> Other
+    </section>
+
+
+
+    <section>
+        <label>Email:
+            <input type="email" name="email-address" placeholder="your email">
+        </label>
+        <label>
+            Password:
+            <input type="password" name="password" placeholder="your password">
+        </label>
+    </section>
+
+
+    <section>
+        <label>
+            Birthday:
+            <input type="date" name="birthday">
+        </label>
+    </section>
+
+
+    <section>
+        I agree to the terms and conditions
+        <input type="checkbox" required>
+    </section>
+
+
+    <section>
+        <button type="submit">
+            Submit
+        </button>
+    </section>
+
+
+    </fieldset>
+
+</form>
+
+
+</body>
+</html>
